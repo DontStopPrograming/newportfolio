@@ -75,7 +75,13 @@ nav {
         border-radius: 2px;
     }
 
-
+    .ham .x-icon {
+        display: inline-block;
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-left: 10px;
+    }
 
 
 @media (max-width: 768px){
@@ -90,6 +96,10 @@ nav {
         top: 15px;
         right: 25px;
         transition: 0.2s 0.1s;
+    }
+
+    .ham.activado .x-icon {
+        display: block;
     }
 
     nav {
