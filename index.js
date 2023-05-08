@@ -1,13 +1,10 @@
 const ham = document.querySelector('.ham')
 const enlaces = document.querySelector('.nav-menu')
-const xIcon = document.querySelector('.x-icon')
+const barras = document.querySelector('.ham span')
 
-ham.addEventListener('click', () => {
+ ham.addEventListener('click', () => {
     enlaces.classList.toggle('activado')
+    barras.forEach(child => {child.classList.toggle('animado')})
+    ham.classList.toggle('girar')
+ })
 
-    if(enlaces.classList.contains('activado')){
-        xIcon.textContent = 'X'
-    } else {
-        xIcon.textContent = ''
-    }
-})
