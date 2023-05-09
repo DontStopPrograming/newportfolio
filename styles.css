@@ -9,8 +9,6 @@
 
 
 body {
-    /* height: auto; */
-    
     background: #f3f3f3;
     
 }
@@ -19,7 +17,7 @@ section {
     /* max-width: 1200px; */
     max-width: 99vw;
     min-height: 99vh;
-    height: 99vh;
+    height: 100%;
     /* padding: 0 20px;     */
 }
 
@@ -210,6 +208,62 @@ nav {
     margin-top: -50%;
 }
 
+/* SECTION TWO */
+
+.sectionTwo .container-title-sectionTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-projects {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+       'first-project two-project three-project';
+    gap: 20px;
+    margin-top: 10%;
+}
+
+.container-projects .box {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;  
+    margin-left: 20%;  
+}
+.first-project{
+    grid-area: first-project;
+}
+.two-project{
+    grid-area: two-project;
+}
+.three-project{
+    grid-area: three-project;
+}
+.container-projects h1 {
+    margin-right: 20px;
+}
+
+
+/* .title h1{
+    background: linear-gradient(to right, rgb(251, 255, 0), rgb(255, 0, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    margin: 0;
+    
+} */
+
+.title .line {
+    background: linear-gradient(rgb(251, 255, 0), rgb(255, 0, 255));
+    height: 2px;
+    width: calc(100% - 50px);
+    margin-left: 10px;
+}
 
 
 
@@ -218,10 +272,10 @@ nav {
     
 @media (max-width: 768px){
     body{
-        overflow: hidden;
+        overflow: auto;
     }
 
-    .ham {
+  .ham {
         display: block;
         cursor: pointer;
         position: absolute;
@@ -282,7 +336,7 @@ nav {
             transform: rotate(360deg);
         }
 
-        /* SECTION ONE RESPONSIVE 768PX */
+    /* SECTION ONE RESPONSIVE 768PX */
         .dropdown-menu {
             left: 1rem;
             width: unset;
@@ -295,7 +349,8 @@ nav {
                 'one-image'
                 'one-description'
                 'networks';
-            
+                height: 100%;
+                min-height: 80vh;
         }
 
         .one-image {
@@ -347,7 +402,17 @@ nav {
             flex-direction: row;
             margin-top: 0;
 }
-.container-projects {
+
+
+
+        /* Section Two responsive */
+
+        .sectionTwo {
+            height: auto;
+            min-height: 80vh;
+        }
+
+/* .container-projects {
                 display: grid;
                 align-items: center;
                 grid-template-columns: repeat(1, 1fr);
@@ -358,12 +423,12 @@ nav {
                    'three-project';
                 gap: 20px;
                 margin-top: 10%;
-            }
+            } */
             .container-projects .box {
                 border: 2px solid black;
                 border-radius: 10px;
-                width: auto;
-                height: 220px;  
+                
+                height: 150px;  
                 margin-left: 0;  
             }   
 
