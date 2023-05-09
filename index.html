@@ -15,6 +15,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 
+    <!-- A -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <body>
     <header>
         <nav class = container-nav>
@@ -39,9 +42,10 @@
         <div class = "one-description">
             <p class = "wel"> Welcome my profile</p> 
             <h1 class = "dev"> Im Developer</h1><br>
-            <p id = "nam"> My name is John Nazario</p>
-            <p id = "abo"> I like programing, design web, I have 32 years and I live in Peru. 
-            I am oriented to fullstack development. I have one year and four months programing with javascript but I have knowledges of more than 8 years about TI <span> <button class = 'ti-btn'> &#8230;</button></span> </p>    
+            <div data-aos="zoom-in-down" data-aos-delay="2000"> <p id = "nam"> My name is John Nazario</p></div>
+            <br>
+            <div data-aos="zoom-in-down" data-aos-delay="3000"> <p id = "abo"> Iam Developer FullStack, I like much programing and my passion is the thecnology. </p> </div>
+            
         </div>
         <div class = "one-image"> 
             <img src="img/lentes.png" alt = "me">
@@ -60,12 +64,54 @@
         </div>
     </section>
 
+    <section id = "sectionThree" class = "sectionThree">
+        <div class = "container-title-sectionThree">
+            <div data-aos="fade-down-left" class = "skills sk" data-0="left:-100%;" data-end="left:50%; opacity:1;" data-end-top="opacity: 0%;"><h1> SKILLS</h1> </div>
+            <div data-aos="fade-down-left" class = "html5 sk" data-0="left:150%;" data-end="left:-80%; opacity:1;" data-end-top="opacity:0;"> <p> HTML5</p> </div>
+            <div data-aos="fade-down-left" class = "css sk rellax" 
+                data-rellax-xs-speed="1"
+                data-rellax-mobile-speed="5"
+                data-rellax-tablet-speed="5"
+                data-rellax-desktop-speed="-1" data-0 = "left: -100%;" data-end = "left:100%; opacity:1;" data-end-top="opacity:0;"> <p> CSS</p></div>
+
+
+            <div data-aos="fade-down-left" class = "javascript sk rellax"  
+                data-rellax-xs-speed="1"
+                data-rellax-mobile-speed="5"
+                data-rellax-tablet-speed="5"
+                data-rellax-desktop-speed="1" data-0 = "left: 50%;" data-end = "left:-100%; opacity:1;" data-end-top="opacity:0;"> <p> JAVASCRIPT</p></div>
+
+            <div data-aos="zoom-in-down" class = "git sk2"> <p> GIT</p></div>
+            <div data-aos="zoom-in-down" class = "node sk2" > <p> NODE.JS</p></div>
+            <div data-aos="zoom-in-down" class = "react sk2" > <p> REACT.JS</p></div>
+            <div data-aos="zoom-in-down" class = "sql sk2" > <p> SQL</p></div>
+            <div data-aos="zoom-in-down" class = "sass sk2" > <p> SASS</p></div>
+            <div data-aos="zoom-in-down" class = "aws sk2" > <p> AWS</p></div>
+            <div data-aos="zoom-in-down" class = "linux sk2" > <p> LINUX</p></div>   
+        </div>
+        
+    </section> 
+
+
     <section id = "sectionFour" class = "sectionFour">
         <div class = "container-title-sectionFour title">
             <h1> Servicios</h1>
             <div class = "line"> </div>
         </div>
     </section>
+
+     <!-- R -->
+     <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+     <script>
+     var rellax = new Rellax('.rellax');
+     </script>
+
+    <!-- A -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+  
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+     <script src = "parallax.js"> </script>
 
     <script src = "index.js"></script>
 
