@@ -346,15 +346,26 @@ nav {
         grid-area: uiux;
     }
 
-    /* Section Five */
-    
-    /* Section Five responsive 768 */
+    /* Section Five responsive 768 PX */
+    .sectionFive p {
+        padding: 0 20px;
+    }
+
+    .sectionFive .iam {
+        font-size: 2rem;
+    }
+        .sectionFive .love {
+        font-size: 1.5rem;
+    }
+        
+      
+    /* Section Six responsive 768 PX*/
    
-    .sectionFive .container-title-sectionFive h1{
+    .sectionSix .container-title-sectionSix h1{
         font-size: 8rem;
     }
 
-    .sectionFive .container-title-sectionFive .with{
+    .sectionSix .container-title-sectionSix .with{
         margin-left: 10%;
     }
 
@@ -668,11 +679,11 @@ nav {
     
     /* Section Five responsive 768 */
    
-    .sectionFive .container-title-sectionFive h1{
+    .sectionSix .container-title-sectionSix h1{
         font-size: 2rem;
     }
 
-    .sectionFive .container-title-sectionFive .with{
+    .sectionSix .container-title-sectionSix .with{
         margin-left: 10%;
     }
 }
