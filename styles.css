@@ -25,6 +25,7 @@ body {
 
 nav ul li {
     color: #fff;
+    font-size: 1.5rem;
 }
 
 nav {
@@ -32,13 +33,14 @@ nav {
     align-items: center;
     justify-content: space-around;
     min-height: 8vh;
-    
+    background: #232323;
+    width: 99vw;
 }
 
 .nav-menu {
     display: flex;
     padding: 0;
-    background: #232323;
+    
 }
 
 .nav-menu li {
@@ -49,7 +51,6 @@ nav {
     }
     .nav-menu li a{
         text-decoration: none;
-        font-size: 1.8rem;
         font-weight: 600;
     }
 
@@ -82,13 +83,16 @@ nav {
    
     /* SectionOne */
 .sectionOne {
-    color: #bcbcbc;
+    color: #f3f3f3;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
         'one-description one-image';
     place-items: center;
+    background: #232323;
+      
   }
+  
 
 .sectionOne p {
     font-size: 1.5rem;
@@ -97,6 +101,17 @@ nav {
 .sectionOne h1 {
     font-size: 2rem;
 }
+.sectionOne .one-description #nam {
+    font-size: 5rem;
+    margin-left: 10%;
+  }
+  .sectionOne .one-description #my {
+    font-size: 1em;
+    margin-left: 0;
+    margin-top: -20px;
+  }
+ 
+ 
 
 .line {
     width: 100%;
@@ -190,6 +205,9 @@ nav {
 
 /* SECTION TWO */
 
+.sectionTwo {
+    background: #232323;
+}
 .sectionTwo .container-title-sectionTwo{
     display: flex;
     align-items: center;
@@ -229,20 +247,21 @@ nav {
 
 
  .title h1{
-    background: linear-gradient(to right,rgb(255, 0, 255),  rgb(251, 255, 0));
+    /* background: linear-gradient(to right,rgb(255, 0, 255),  rgb(251, 255, 0)); */
+    background: linear-gradient(to right,rgb(255, 0, 93),  rgb(251, 255, 0));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     margin: 0;
-    
+    padding: 10px;
 } 
 
 .title .line-one {
     background: linear-gradient(rgb(251, 255, 0), #ff00ff);
     height: 2px;
     width: calc(100% - 10px);
-    margin-left: 10px;
+    margin-left: -10px;
 }
 
 /* .title .line-two {
@@ -260,6 +279,7 @@ nav {
 .sectionThree {
   
    width: 99vw;
+   color: #232323;
    
 }
 
@@ -295,7 +315,9 @@ nav {
  
  
 /* SECTION FOUR  */
-
+.sectionFour {
+    color: #232323;
+}
 .sectionFour .container-title-sectionFour {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -306,7 +328,7 @@ nav {
         '. . web .'
         '. . development .'
         '. . uiux .';
-    margin-top: 20%;
+    margin-top: 10%;
     
 }
 
@@ -324,12 +346,70 @@ nav {
         grid-area: uiux;
     }
 
+    /* Section Five responsive 768PX */
+    .sectionFive{
+        position: relative;
+    }
+    .sectionFive .container-title-sectionFive h1{
+        font-size: 8rem;
+    }
+
+    .sectionFive .container-title-sectionFive .with{
+        margin-left: 10%;
+    }
+
 /* RESPONSIVE 768PX IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
     
 @media (max-width: 768px){
     body{
         overflow: auto;
     }
+
+    
+    .nav-menu {
+        display: flex;
+        padding: 0;
+        background: linear-gradient(#232323, #482b2b);
+    }
+    
+    .nav-menu li {
+        padding: 0 40px;
+        list-style-type: none;
+        transition: 0.3s;
+        color:rgb(255, 61, 61);
+        }
+        .nav-menu li a{
+            text-decoration: none;
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+    
+        .nav-menu li:hover {
+            
+            cursor: pointer;
+            color: #fff;
+        }
+    
+    
+    .ham {
+        display: none;
+        cursor: pointer;
+        border: none;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        
+        
+    }
+        .ham span {
+            display: block;
+            background-color: rgb(163, 163, 163);
+            height: 3px;
+            width: 28px;
+            margin: 10px auto;
+            border-radius: 2px;
+        }
+    
 
     * section {
         /* max-width: 1200px; */
@@ -427,6 +507,16 @@ nav {
                 
         }
 
+        .sectionOne .one-description #nam {
+            font-size: 3.5rem;
+            margin-top: 10px;
+          }
+          .sectionOne .one-description #my {
+            font-size: 1em;
+            margin-left: 0;
+            margin-top: -20px;
+          }
+
         .one-image {
             padding: 20px;
             border-radius: 50%;
@@ -499,9 +589,25 @@ nav {
                 border: 2px solid black;
                 border-radius: 10px;
                 width: 100%;
-                height: 200px;  
+                height: 180px;  
                 margin-left: 0;  
             }   
+
+            /* Section Three responsive 768PX */
+            .skills {
+                font-size: 5rem;
+            }
+
+            .container-title-sectionThree {
+                margin-top: 20%;;
+            }
+            .container-title-sectionThree p{
+                font-size: 40px;
+                
+            }
+           
+           
+
 
             /* .container-title-sectionThree .sk {
                 font-size: 2rem;
@@ -518,7 +624,23 @@ nav {
               .git {
                 margin-top: -75%;
               } */
-     
+    /* Section Four Responsive 768PX */
+    .services {
+        font-size: 1.6rem;
+    }
+    .sectionFour .container-title-sectionFour {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 0.5fr);
+        grid-template-areas: 
+            '. . services .'
+            '. . web .'
+            '. . development .'
+            '. . uiux .';
+            gap: 40px;
+        margin-top: 20%;
+        
+    }
 }
 
 
