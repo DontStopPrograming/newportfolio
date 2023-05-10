@@ -358,6 +358,33 @@ nav {
         margin-left: 10%;
     }
 
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10% 10px;
+        
+    }
+        form input {
+            padding: 10px;
+            width: 250px;
+        }
+        form div {
+            padding: 10px;
+        }
+        
+        form label {
+            font-size: 1.2rem;
+        }
+        textarea {
+            resize: none;
+            width: 250px;
+        }
+        .send {
+            margin-left: 40%;
+        }
+
 /* RESPONSIVE 768PX IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
     
 @media (max-width: 768px){
