@@ -362,7 +362,7 @@ nav {
     
 @media (max-width: 768px){
     body{
-        overflow: auto;
+        overflow: hidden;
     }
 
     
@@ -508,7 +508,7 @@ nav {
         }
 
         .sectionOne .one-description #nam {
-            font-size: 3.5rem;
+            font-size: 3rem;
             margin-top: 10px;
           }
           .sectionOne .one-description #my {
@@ -517,6 +517,9 @@ nav {
             margin-top: -20px;
           }
 
+         .sectionOne .one-description .wel .dev .my .abo {
+            padding: 20px;
+          }
         .one-image {
             padding: 20px;
             border-radius: 50%;
