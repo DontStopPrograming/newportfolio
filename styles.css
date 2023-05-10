@@ -497,14 +497,14 @@ nav {
 
        .sectionOne {
             grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(3, 250px);
+            grid-template-rows: repeat(2, 1fr);
             grid-template-areas: 
-                'one-image'
-                'one-description'
+                'one-image my'
                 'networks';
                 
         }
 
+       
         .sectionOne .one-description #nam {
             font-size: 2.5rem;
             margin-left: -20px;
@@ -552,14 +552,10 @@ nav {
         
         .one-description .dev{
             animation: none;
-            animation: letter 20s infinite ease-in-out;
+            
             transition: 0.5s;
         }
-            @keyframes letter {
-                50%{
-                    font-size: 2.2rem;
-                }
-            }
+           
         .networks {
             grid-area: networks;
             display: flex;
