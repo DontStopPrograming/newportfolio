@@ -547,8 +547,8 @@ nav {
         .one-image {
             padding: 10px;
             border-radius: 50%;
-            width: 250px;
-            height:250px;
+            width: 200px;
+            height:200px;
             overflow: hidden;
            
         }
@@ -567,7 +567,7 @@ nav {
         }
 
         .sectionOne .one-description #nam {
-            font-size: 2.5rem;
+            font-size: 5rem;
         }
         
         .sectionOne .one-description {
