@@ -238,28 +238,48 @@ nav {
     
 } 
 
-.title .line {
-    background: linear-gradient(rgb(251, 255, 0), rgb(255, 0, 255));
+.title .line-one {
+    background: linear-gradient(rgb(251, 255, 0), #ff00ff);
     height: 2px;
-    width: calc(100% - 50px);
+    width: calc(100% - 10px);
     margin-left: 10px;
 }
+
+.container-title-sectionFour {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  
+ title .line-two {
+    margin-top: 0;
+    margin-left: 250px;
+    transform: rotate(-90deg);
+    background: linear-gradient(rgb(251, 255, 0), #ff00ff);
+    height: 2px;
+    width: 100%;
+  }
+
+
 
 /* SECTION THREE */
 .sectionThree {
   
-   height: 99vw;
+   width: 99vw;
+   
 }
 
 .container-title-sectionThree .sk {
     position: relative;
     overflow: hidden;
    }
-/* .skills {
+ .skills {
+    font-size: 12rem;
     
-    position: relative;
-    overflow: hidden;
-} */
+} 
+
+
 
 
 .container-title-sectionThree {
@@ -267,6 +287,7 @@ nav {
     justify-content: center;
     align-content: center;
     font-size: 10rem;
+    
 
 }
 
@@ -276,6 +297,9 @@ nav {
     
     
    }
+
+   
+ 
  
 /* SECTION FOUR  */
 
