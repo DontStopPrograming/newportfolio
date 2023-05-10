@@ -547,8 +547,8 @@ nav {
         .one-image {
             padding: 10px;
             border-radius: 50%;
-            width: 300px;
-            height:300px;
+            width: 250px;
+            height:250px;
             overflow: hidden;
            
         }
@@ -558,8 +558,16 @@ nav {
             height: auto;
         }
 
-      .sectionOne p, h1 {
+      .sectionOne p {
             font-size: 1em;
+        }
+
+        .sectionOne h1 {
+            font-size: 1.5rem;
+        }
+
+        .sectionOne .one-description #nam {
+            font-size: 2.5rem;
         }
         
         .sectionOne .one-description {
