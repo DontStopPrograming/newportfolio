@@ -104,6 +104,21 @@ nav {
 .sectionOne h1 {
     font-size: 2rem;
 }
+
+#nam {
+    grid-area: one-image;
+    animation: namnam 1s linear;
+    z-index: 1;
+}
+    @keyframes namnam {
+        0%{
+            opacity: 0%;
+        }
+        100%{
+            opacity: 5%;
+        }
+    }
+
 .sectionOne .one-description #nam {
     font-size: 5rem;
     margin-left: 10%;
