@@ -85,12 +85,15 @@ nav {
 .sectionOne {
     color: #f3f3f3;
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-template-areas: 
         'one-description one-image';
     place-items: center;
     background: #232323;
-      
+    
   }
   
 
@@ -127,29 +130,6 @@ nav {
     margin-left: 37%;
     
 }
-/* .one-description p {
-    animation: onep 1s linear;
-}
-    @keyframes onep {
-        0%{
-            opacity: 0;
-        }
-        50%{
-            opacity: 0;
-        }
-        70%{
-            opacity: 0;
-        }
-        80%{
-            opacity: 0;
-        }
-        90%{
-            opacity: 0;
-        }
-        100%{
-            filter: brightness(2.00);
-        }
-    } */
 .one-description .dev {
     animation: onedev 1s linear;
 }
@@ -191,16 +171,15 @@ nav {
         object-fit: contain;
     }
 
-
-.networks img {
-    padding: 2px;
-}
 .networks img:hover {
     filter: brightness(2.00);
 }
 .networks {
+    grid-area: networks;
+    margin-left: 20%;
+    margin-top: 10%;
     display: flex;
-    margin-top: -50%;
+    justify-content: space-evenly;
 }
 
 /* SECTION TWO */
@@ -533,20 +512,19 @@ nav {
             width: unset;
         }
 
-       /* .sectionOne {
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            grid-template-areas: 
-                'one-image my'
-                'networks';
-                
-        } */
-
-        .sectionOne {
-            display: inline-block;
-            
+        .networks img:hover {
+            filter: brightness(2.00);
         }
-
+        .networks {
+            grid-area: networks;
+            margin-left: 0;
+            display: none;
+            justify-content: none;
+        }
+            .networks img {
+                margin-top: 20px;
+            }
+        
        .sectionOne .one-description #nam {
             font-size: 2rem;
             margin-left: 0;
@@ -630,7 +608,7 @@ nav {
                 border: 2px solid black;
                 border-radius: 10px;
                 width: 100%;
-                height: 180px;  
+                height: 150px;  
                 margin-left: 0;  
             }   
 
