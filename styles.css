@@ -585,8 +585,9 @@ nav {
         }
         
         .sectionOne .one-description {
-            padding: 40px;
+            padding: 20px;
             text-align: center;
+            justify-content: space-between;
             margin-left: 0;
         }
        
