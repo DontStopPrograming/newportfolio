@@ -10,7 +10,7 @@
 
 body {
     background: #f3f3f3;
-    
+   
 }
 
 * section {
@@ -252,7 +252,7 @@ nav {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
+    /* text-fill-color: transparent; */
     margin: 0;
     padding: 10px;
 } 
@@ -346,10 +346,10 @@ nav {
         grid-area: uiux;
     }
 
-    /* Section Five responsive 768PX */
-    .sectionFive{
-        position: relative;
-    }
+    /* Section Five */
+    
+    /* Section Five responsive 768 */
+   
     .sectionFive .container-title-sectionFive h1{
         font-size: 8rem;
     }
@@ -361,9 +361,7 @@ nav {
 /* RESPONSIVE 768PX IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
     
 @media (max-width: 768px){
-    body{
-        overflow: hidden;
-    }
+  
 
     
     .nav-menu {
@@ -508,8 +506,9 @@ nav {
         }
 
         .sectionOne .one-description #nam {
-            font-size: 3rem;
-            margin-top: 10px;
+            font-size: 2.5rem;
+            margin-left: -20px;
+            margin-top: 20px;
           }
           .sectionOne .one-description #my {
             font-size: 1em;
@@ -517,9 +516,7 @@ nav {
             margin-top: -20px;
           }
 
-         .sectionOne .one-description .wel .dev .my .abo {
-            padding: 20px;
-          }
+        
         .one-image {
             padding: 20px;
             border-radius: 50%;
@@ -643,6 +640,17 @@ nav {
             gap: 40px;
         margin-top: 20%;
         
+    }
+
+    
+    /* Section Five responsive 768 */
+   
+    .sectionFive .container-title-sectionFive h1{
+        font-size: 2rem;
+    }
+
+    .sectionFive .container-title-sectionFive .with{
+        margin-left: 10%;
     }
 }
 
