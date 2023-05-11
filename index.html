@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
     
+    <!-- S -->
+    <script src="https://cdn.jsdelivr.net/npm/skrollr"></script>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,7 +76,9 @@
 
     <section id = "sectionThree" class = "sectionThree">
         <div class = "container-title-sectionThree" >
-            <div class = "skills sk"><h1> SKILLS</h1> </div>
+            <div data-0="transform: translateX(0%);" data-50="transform: translateX(-95%);" data-1000="transform: translateX(50%);" class = "skills sk"><h1> SKILLS</h1> </div>
+            
+
             <div class = "html5 sk"> <p> HTML5</p> </div>
             <div class = "css sk"> <p> CSS</p></div>
 
@@ -144,6 +149,18 @@
     <script> AOS.init(); </script>
   
      <script src = "index.js"></script>
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/path/to/parallax.js"></script>
+
+     <!-- S -->
+     <script>
+       skrollr.init({
+  smoothScrolling: true,
+  forceHeight: false
+});
+      </script>
 
      <script src = "menuClick.js"> </script>
 

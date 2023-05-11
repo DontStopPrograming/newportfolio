@@ -295,7 +295,6 @@ nav {
     align-content: center;
     font-size: 10rem;
     
-
 }
 
 .container-title-sectionThree .sk2 {
@@ -638,7 +637,10 @@ nav {
             /* Section Three responsive 768PX */
             .skills {
                 font-size: 5rem;
-            }
+
+            /* }   .skills[data-50]{
+                transform: translateX();
+            } */
 
             .container-title-sectionThree {
                 margin-top: 20%;;
