@@ -270,7 +270,7 @@ nav {
 
 
 /* SECTION THREE */
-.sectionThree {
+/* .sectionThree {
   
    width: 99vw;
    color: #232323;
@@ -284,12 +284,57 @@ nav {
  .skills {
     font-size: 12rem;
     
-} 
+}  */
+
+
+.sectionThree {
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+  }
+  
+  .container-title-sectionThree {
+    position: relative;
+    /* width: 200%;
+    height: 100%; */
+  }
+  
+  /* .sk {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    top: 50%;
+    transform: translateY(-50%);
+  } */
+  
+  .skills {
+    position: absolute;
+    left: -30%;
+    transition: left 1s ease;
+  } .skills h1 {
+    font-size: 8rem;
+    
+  }
+  
+  .html5 {
+    left: -50%;
+  }
+  
+  .css {
+    left: 200%;
+  }
+  
+  .javascript {
+    left: 300%;
+  }
+  
 
 
 
 
-.container-title-sectionThree {
+/* .container-title-sectionThree {
     display: grid;
     justify-content: center;
     align-content: center;
@@ -302,7 +347,7 @@ nav {
     margin-top: 0;
     
     
-   }
+   } */
 
    
  
@@ -638,10 +683,7 @@ nav {
             .skills {
                 font-size: 5rem;
 
-            /* }   .skills[data-50]{
-                transform: translateX();
-            } */
-
+       
             .container-title-sectionThree {
                 margin-top: 20%;;
             }
@@ -696,6 +738,10 @@ nav {
     .sectionSix .container-title-sectionSix .with{
         margin-left: 10%;
     }
+
+   
+     
 }
 
 
+}
