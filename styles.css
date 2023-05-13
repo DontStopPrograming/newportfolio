@@ -625,12 +625,7 @@ nav {
 
             /* Section Three responsive 768PX */
             
-            .sectionThree {
-                height: 85vh;
-                overflow: hidden;
-            }
-
-            .skills {
+           .skills {
                 font-size: 5rem;
             }
 
