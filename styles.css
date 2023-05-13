@@ -294,53 +294,7 @@ nav {
     
   }
   
- 
   
-    .skills {
-    transition: left 1s ease;
-    margin-left: -50%;
-  } .skills h1 {
-    font-size: 8rem;
-    
-  }
-  
-  .html {
-    margin-top: 10%;
-    margin-left: 60%;
-    transition: left 1s ease;
-  }.html h1{
-    font-size: 8rem;
-  }
-  
-  .css {
-    margin-left: -100%;
-  }
-  
-  .javascript {
-    left: 300%;
-  }
-  
-
-
-
-
-/* .container-title-sectionThree {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    font-size: 10rem;
-    
-}
-
-.container-title-sectionThree .sk2 {
-    font-size: 2rem;
-    margin-top: 0;
-    
-    
-   } */
-
-   
- 
  
 /* SECTION FOUR  */
 .sectionFour {
@@ -616,7 +570,7 @@ nav {
         }
 
         .sectionOne .one-description #nam {
-            font-size: 5rem;
+            font-size: 4rem;
         }
         
         .sectionOne .one-description {
@@ -670,16 +624,41 @@ nav {
             }   
 
             /* Section Three responsive 768PX */
+            .sectionThree {
+                height: 150vh;
+            }
+
             .skills {
                 font-size: 5rem;
-
-       
-            .container-title-sectionThree {
-                margin-top: 20%;;
             }
-            .container-title-sectionThree p{
-                font-size: 40px;
+
+            .skills {
+                transition: left 1s ease;
+                margin-left: -50%;
+              } .skills h1 {
+                font-size: 8rem;
                 
+              }
+              
+              .html {
+                margin-top: 10%;
+                margin-left: 90%;
+                transition: left 1s ease;
+              }.html p{
+                font-size: 4rem;
+              }
+              
+              .css {
+                margin-left: -80%;
+              }.css p{
+                font-size: 3rem;
+              }
+              
+              .javascript {
+                margin-top: 50%;
+                margin-left:20%;
+            }.javascript p {
+                font-size: 3rem;
             }
            
            
@@ -700,6 +679,7 @@ nav {
               .git {
                 margin-top: -75%;
               } */
+
     /* Section Four Responsive 768PX */
     .services {
         font-size: 1.6rem;
