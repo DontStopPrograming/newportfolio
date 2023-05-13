@@ -291,39 +291,29 @@ nav {
     height: 100vh;
     background-color: #f0f0f0;
     overflow-x: hidden;
+    
   }
   
-  .container-title-sectionThree {
-    position: relative;
-    /* width: 200%;
-    height: 100%; */
-  }
+ 
   
-  /* .sk {
-    position: relative;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    top: 50%;
-    transform: translateY(-50%);
-  } */
-  
-  .skills {
-    position: absolute;
-    left: -30%;
+    .skills {
     transition: left 1s ease;
+    margin-left: -50%;
   } .skills h1 {
     font-size: 8rem;
     
   }
   
-  .html5 {
-    left: -50%;
+  .html {
+    margin-top: 10%;
+    margin-left: 60%;
+    transition: left 1s ease;
+  }.html h1{
+    font-size: 8rem;
   }
   
   .css {
-    left: 200%;
+    margin-left: -100%;
   }
   
   .javascript {
