@@ -10,14 +10,14 @@
 
 body {
     background: #f0f0f0;
-   
+    overflow-x: hidden;
 }
 
  section {
     /* max-width: 1200px; */
     max-width: 99vw;
     width: 99vw;
-    min-height: 99vh;
+    min-height: 100vh;
     color: #232323;
     
     /* padding: 0 20px;     */
@@ -502,6 +502,7 @@ nav {
 
         .networks img:hover {
             filter: brightness(2.00);
+            transition: filter 1s, opacity 0.5s;
         }
         .networks {
             grid-area: networks;
