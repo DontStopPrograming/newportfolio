@@ -678,11 +678,29 @@ nav {
             gap: 40px;
         margin-top: 20%;
         
+    } .container-title-sectionFour .serv {
+        display: flex;
+    } .container-title-sectionFour .serv img{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+    } .container-title-sectionFour .serv h2{
+        margin-left: 10px;
+        
     }
+
+   
 
     
     /* Section Five responsive 768 */
    
+    .sectionFive {
+        background-image: url('img/fondo.svg');
+        background-size: cover;
+        background-position: center;
+        color: #f0f0f0;
+    }
+
     .miImagen {
         margin-top: 0;
         width: auto;
