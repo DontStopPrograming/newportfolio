@@ -311,9 +311,10 @@ nav {
 /* SECTION THREE */
 
 .sectionThree {
-    width: 99vw;
-    overflow: hidden;
     
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(#f0f0f0, #ff7aff);
   }
   
   
@@ -321,7 +322,7 @@ nav {
 /* SECTION FOUR  */
 .sectionFour {
     color: #232323;
-    
+    height: 50vh;
 }
 .sectionFour .container-title-sectionFour {
     display: grid;
@@ -356,13 +357,10 @@ nav {
         padding: 0 20px;
     }
 
-    .sectionFive .iam {
-        font-size: 2rem;
-    }
-        .sectionFive .love {
+    .sectionFive span {
         font-size: 1.5rem;
     }
-        
+       
       
     /* Section Six responsive 768 PX*/
    
