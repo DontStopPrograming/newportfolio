@@ -313,8 +313,8 @@ nav {
 .sectionThree {
     
     overflow: hidden;
-    height: 100vh;
-    background: linear-gradient(#f0f0f0, #ff7aff);
+    height: 120vh;
+    
   }
   
   
@@ -322,7 +322,7 @@ nav {
 /* SECTION FOUR  */
 .sectionFour {
     color: #232323;
-    height: 50vh;
+    height: 100vh;
 }
 .sectionFour .container-title-sectionFour {
     display: grid;
@@ -384,9 +384,16 @@ nav {
         padding: 10% 10px;
         
     }
-        form input {
+        form input[type="text"] {
             padding: 10px;
             width: 250px;
+            color: #fff;
+            border: #ff00ff 1px solid;
+        } form input[type="text"]:focus {
+            background: #232323;
+        } form textarea:focus {
+            background: #232323;
+            color: #fff;
         }
         form div {
             padding: 10px;
@@ -398,6 +405,7 @@ nav {
         textarea {
             resize: none;
             width: 250px;
+            border: #ff00ff 1px solid;
         }
         .send {
             margin-left: 40%;
