@@ -11,7 +11,9 @@
 body {
     background: #f0f0f0;
     overflow-x: hidden;
-}
+} .body.menu-open {
+    overflow: hidden;
+    }
 
  section {
     /* max-width: 1200px; */
@@ -313,7 +315,7 @@ nav {
 .sectionThree {
     
     overflow: hidden;
-    height: 120vh;
+    height: 150vh;
     
   }
   
@@ -322,7 +324,7 @@ nav {
 /* SECTION FOUR  */
 .sectionFour {
     color: #232323;
-    height: 100vh;
+    height: 90vh;
 }
 .sectionFour .container-title-sectionFour {
     display: grid;
