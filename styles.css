@@ -910,5 +910,9 @@ nav {
             margin-left: 40%;
         }
 
+        body {
+            overflow-x: hidden;
+        }
+
 }
 
