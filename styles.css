@@ -326,19 +326,7 @@ nav {
     color: #232323;
     height: 90vh;
 }
-.sectionFour .container-title-sectionFour {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 0.7fr);
-    grid-template-areas: 
-        '. . services .'
-        '. . . .'
-        '. . web .'
-        '. . development .'
-        '. . uiux .';
-    margin-top: 10%;
-    
-}
+
 
     .services {
         grid-area: services;
@@ -354,17 +342,65 @@ nav {
         grid-area: uiux;
     }
 
-    /* Section Five responsive 768 PX */
+    .services {
+        font-size: 1.9rem;
+    }
+    .sectionFour .container-title-sectionFour {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 0.5fr);
+        grid-template-areas: 
+            '. . services services'
+            '. . web web'
+            '. . development development'
+            '. . uiux uiux';
+            gap: 40px;
+        margin-top: 20%;
+        
+    } .container-title-sectionFour .serv {
+        display: flex;
+    } .container-title-sectionFour .serv img{
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    } .container-title-sectionFour .serv h2{
+        margin-left: 10px;
+        
+    }
+
+
+    /* Section Five */
     .sectionFive p {
         padding: 0 20px;
     }
 
     .sectionFive span {
+        font-size: 2rem;
+    }
+    
+    .sectionFive {
+        background-image: url('img/fondo.svg');
+        background-size: cover;
+        background-position: center;
         font-size: 1.5rem;
     }
-       
+
+    .miImagen {
+        margin-top: 0;
+        width: 700px;
+        padding: 20px 0;
+        margin-left: 40%;
+    } .miImagen img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .aboutMe {
+        padding: 5% 5%;
+    }
       
-    /* Section Six responsive 768 PX*/
+    /* Section Six */
    
     .sectionSix .container-title-sectionSix h1{
         font-size: 8rem;
@@ -384,15 +420,16 @@ nav {
         align-items: center;
         flex-direction: column;
         padding: 10% 10px;
-        
+        color: #232323;
     }
         form input[type="text"] {
             padding: 10px;
             width: 250px;
-            color: #fff;
+            color: #232323;
             border: #ff00ff 1px solid;
         } form input[type="text"]:focus {
             background: #232323;
+            color: #fff;
         } form textarea:focus {
             background: #232323;
             color: #fff;
@@ -704,7 +741,7 @@ nav {
     /* Section Four Responsive 768PX */
 
     .sectionFour {
-        min-height: 60vh;
+        min-height: 50vh;
     }
 
     .services {
@@ -733,10 +770,7 @@ nav {
         
     }
 
-   
-
-    
-    /* Section Five responsive 768 */
+   /* Section Five responsive 768 */
    
     .sectionFive {
         background-image: url('img/fondo.svg');
@@ -744,11 +778,22 @@ nav {
         background-position: center;
         
     }
+    
+    .sectionFive p {
+        padding: 0 20px;
+        font-size: 1rem;
+    }
+
+    .sectionFive span {
+        font-size: 1.5rem;
+    }
+    
 
     .miImagen {
         margin-top: 0;
         width: auto;
         padding: 5% 5%;
+        margin-left: 0;
     } .miImagen img {
         width: 100%;
         height: 200px;
