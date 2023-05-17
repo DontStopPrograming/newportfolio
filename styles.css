@@ -54,6 +54,7 @@ nav {
     .nav-menu li a{
         text-decoration: none;
         font-weight: 600;
+        color: red;
     }
 
     .nav-menu li:hover {
@@ -313,25 +314,68 @@ nav {
 /* SECTION THREE */
 
 .sectionThree {
-    
     overflow: hidden;
-    height: 150vh;
+}
+
+.skills {
+    font-size: 5rem;
+}
+
+.skills {
+    transition: left 1s ease;
+    margin-left: 10%;
+  } .skills h1 {
+    font-size: 12rem;
     
   }
   
+  .html {
+    margin-top: 0;
+    margin-left: 50%;
+    transition: left 1s ease;
+  }.html p{
+    font-size: 8rem;
+  }
+  
+  .css {
+    margin-left: 20%;
+  }.css p{
+    font-size: 8rem;
+  }
+  
+  .javascript {
+    margin-top: 5%;
+    margin-left:30%;
+}.javascript p {
+    font-size: 8rem;
+}
+
+.git {
+    margin-top: 2%;
+}
+.sk2 {
+    font-size: 1.5rem;
+    padding: 2px 20%;
+}
   
  
 /* SECTION FOUR  */
 .sectionFour {
     color: #232323;
-    height: 90vh;
+    min-height: 50vh;
 }
 
 
     .services {
         grid-area: services;
         font-size: 3rem;
-    }
+
+        background: linear-gradient(to right,rgb(255, 0, 93), rgb(244, 249, 0));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+    } 
     .web {
         grid-area: web;
     }
@@ -342,9 +386,8 @@ nav {
         grid-area: uiux;
     }
 
-    .services {
-        font-size: 1.9rem;
-    }
+   
+
     .sectionFour .container-title-sectionFour {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -354,8 +397,8 @@ nav {
             '. . web web'
             '. . development development'
             '. . uiux uiux';
-            gap: 40px;
-        margin-top: 20%;
+        gap: 40px;
+        margin-top: 10%;
         
     } .container-title-sectionFour .serv {
         display: flex;
@@ -370,6 +413,10 @@ nav {
 
 
     /* Section Five */
+
+    .sectionFive{
+        min-height: 20vh;
+    }
     .sectionFive p {
         padding: 0 20px;
     }
@@ -383,13 +430,15 @@ nav {
         background-size: cover;
         background-position: center;
         font-size: 1.5rem;
+        height: 100vh;
+        
     }
 
     .miImagen {
-        margin-top: 0;
         width: 700px;
-        padding: 20px 0;
-        margin-left: 40%;
+        padding: 5% 0;
+        margin: 0 auto;
+        
     } .miImagen img {
         width: 100%;
         height: 300px;
@@ -397,21 +446,27 @@ nav {
     }
 
     .aboutMe {
-        padding: 5% 5%;
+        padding: 0px 20%;
+        text-align: center;
     }
       
     /* Section Six */
    
+    .sectionSix {
+        min-height: 100vh;
+        background: #232323;
+        color: #fff;
+    }
+
     .sectionSix .container-title-sectionSix h1{
         font-size: 8rem;
         margin-left: 10%;
-        margin-top: 20px;
-        
+        padding: 50px;
     }
 
     .sectionSix .container-title-sectionSix .with{
-        margin-top: -4%;
-        margin-left: 10%;
+        margin-top: -100px;
+        margin-left: 14%;
     }
 
     form {
@@ -419,12 +474,12 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 10% 10px;
+        padding: 4% 10px;
         color: #232323;
     }
         form input[type="text"] {
             padding: 10px;
-            width: 250px;
+            width: 300px;
             color: #232323;
             border: #ff00ff 1px solid;
         } form input[type="text"]:focus {
@@ -443,11 +498,14 @@ nav {
         }
         textarea {
             resize: none;
-            width: 250px;
+            width: 300px;
             border: #ff00ff 1px solid;
         }
         .send {
-            margin-left: 40%;
+            margin-left: 12%;
+            font-size: 2rem;
+        } .send a {
+            color: #ff00ff;
         }
 
 /* RESPONSIVE 768PX IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
@@ -793,7 +851,7 @@ nav {
         margin-top: 0;
         width: auto;
         padding: 5% 5%;
-        margin-left: 0;
+        
     } .miImagen img {
         width: 100%;
         height: 200px;
@@ -801,7 +859,8 @@ nav {
     }
 
     .aboutMe {
-        padding: 5% 5%;
+        padding: 2% 2%;
+        text-align: none;
     }
 
 
@@ -814,6 +873,42 @@ nav {
     .sectionSix .container-title-sectionSix .with{
         margin-left: 10%;
     }
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10% 10px;
+        color: #232323;
+    }
+        form input[type="text"] {
+            padding: 10px;
+            width: 250px;
+            color: #232323;
+            border: #ff00ff 1px solid;
+        } form input[type="text"]:focus {
+            background: #232323;
+            color: #fff;
+        } form textarea:focus {
+            background: #232323;
+            color: #fff;
+        }
+        form div {
+            padding: 10px;
+        }
+        
+        form label {
+            font-size: 1.2rem;
+        }
+        textarea {
+            resize: none;
+            width: 250px;
+            border: #ff00ff 1px solid;
+        }
+        .send {
+            margin-left: 40%;
+        }
 
 }
 
