@@ -222,11 +222,11 @@ nav {
 .container-projects {
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: 
-       'first-project two-project three-project';
-    gap: 20px;
+       '. first-project two-project three-project .';
+    gap: 0;
     margin-top: 10%;
 }
 
@@ -253,19 +253,24 @@ nav {
     
 } .icons {
     position: absolute;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
-    top: 50%;
-    left: 80%;
+    top: 80%;
+    left: 50%;
     transform: translate(-50%, -50%);
     
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to right,rgb(251, 255, 0), rgb(255, 0, 93));
     
 } .icons img{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
-    margin-top: 10px;
+    margin-top: none;
+    margin-left: 10px;
+    z-index: 9;
   } 
 .two-project{
     grid-area: two-project;
@@ -482,12 +487,17 @@ nav {
             width: 300px;
             color: #232323;
             border: #ff00ff 1px solid;
+            border-radius: 5px;
         } form input[type="text"]:focus {
             background: #232323;
             color: #fff;
-        } form textarea:focus {
+        } form textarea {
+            border-radius: 5px;
+        }
+         form textarea:focus {
             background: #232323;
             color: #fff;
+            
         }
         form div {
             padding: 10px;
@@ -725,6 +735,29 @@ nav {
 
 
         /* Section Two responsive */
+
+        .icons {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 50%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+
+            width: 25%;
+            height: 70%;
+            border-radius: 50%;
+            background: linear-gradient(to right,rgb(251, 255, 0), rgb(255, 0, 93));
+                
+            
+            
+        } .icons img{
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            margin-top: 10px;
+          } 
 
        
 .container-projects {
