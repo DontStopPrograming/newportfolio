@@ -522,7 +522,10 @@ nav {
     
 @media (max-width: 768px){
   
-
+    body {
+        
+        overflow-x: hidden;
+    }
     
     .nav-menu {
         display: flex;
