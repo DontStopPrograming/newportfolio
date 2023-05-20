@@ -736,6 +736,10 @@ nav {
 
         /* Section Two responsive */
 
+        .sectionTwo {
+            min-height: 150vh;
+        }
+
         .icons {
             position: absolute;
             display: flex;
