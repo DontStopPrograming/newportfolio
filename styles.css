@@ -489,6 +489,15 @@ nav {
             color: #232323;
             border: #ff00ff 1px solid;
             border-radius: 5px;
+        } form input[type="email"] {
+            padding: 10px;
+            width: 300px;
+            color: #232323;
+            border: #ff00ff 1px solid;
+            border-radius: 5px;
+        } form input[type="email"]:focus {
+            background: #232323;
+            color: #fff;
         } form input[type="text"]:focus {
             background: #232323;
             color: #fff;
@@ -740,11 +749,7 @@ nav {
 
         /* Section Two responsive */
 
-        .sectionTwo {
-            min-height: 150vh;
-        }
-
-        .icons {
+       .icons {
             position: absolute;
             display: flex;
             justify-content: center;
@@ -791,7 +796,7 @@ nav {
 
             /* Section Three responsive 768PX */
            .sectionThree {
-            height: 85vh;
+            height: 100vh;
            } 
 
            .skills {
@@ -932,7 +937,15 @@ nav {
         } form input[type="text"]:focus {
             background: #232323;
             color: #fff;
-        } form textarea:focus {
+        }  form input[type="email"] {
+            padding: 10px;
+            width: 250px;
+            color: #232323;
+            border: #ff00ff 1px solid;
+            border-radius: 5px;
+        } form input[type="email"]:focus {
+            background: #232323;
+            color: #fff;} form textarea:focus {
             background: #232323;
             color: #fff;
         }
