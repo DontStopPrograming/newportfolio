@@ -599,7 +599,7 @@ nav {
         top: 15px;
         right: 25px;
         transition: 0.2s 0.1s;
-        
+        width: 40px;
     }
 
    nav {
