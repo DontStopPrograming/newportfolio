@@ -12,7 +12,7 @@ body {
     background: #f0f0f0;
     overflow-x: hidden;
 } .body.menu-open {
-    overflow: hidden;
+    overflow-x: hidden;
     }
 
  section {
