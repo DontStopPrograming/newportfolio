@@ -321,10 +321,6 @@ nav {
 
 /* SECTION THREE */
 
-/* .html:hover p,
-.css:hover p,
-.javascript:hover p, */
-
 .html:hover p,
 .html:hover h2,
 .css:hover p,
@@ -345,7 +341,18 @@ nav {
 .aws:hover h2,
 .node:hover p,
 .node:hover h2 {
-  color: rgb(255, 0, 93);
+  animation: changeC 4s;
+  
+} @keyframes changeC {
+    0%{
+        color: rgb(255, 0, 93);
+    }
+    50% {
+        color: rgb(255, 83, 146);
+    }
+    100%{
+        color:#232323;
+    }
 }
 
 
