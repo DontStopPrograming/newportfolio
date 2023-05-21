@@ -321,22 +321,34 @@ nav {
 
 /* SECTION THREE */
 
-.html:hover p,
+/* .html:hover p,
 .css:hover p,
+.javascript:hover p, */
+
+.html:hover p,
+.html:hover h2,
+.css:hover p,
+.css:hover h2,
 .javascript:hover p,
+.javascript:hover h2,
 .git:hover p,
+.git:hover h2,
 .linux:hover p,
+.linux:hover h2,
 .react:hover p,
+.react:hover h2,
 .sql:hover p,
+.sql:hover h2,
 .sass:hover p,
+.sass:hover h2,
 .aws:hover p,
+.aws:hover h2,
 .node:hover p,
-.sub-two:hover h2,
-.sub:hover h2,
-.s:hover + .sub-two,
-.s:hover + .sub{
-    color:rgb(255, 0, 93);
+.node:hover h2 {
+  color: rgb(255, 0, 93);
 }
+
+
 
 .sectionThree {
     overflow: hidden;
@@ -366,7 +378,7 @@ nav {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-left: 50%;
+    margin-left: -70%;
     font-size: 1rem;
    } .sub-two {
     display: grid;
@@ -838,11 +850,10 @@ nav {
 
             /* Section Three responsive 768PX */
 
-            .sub {
-                display: grid;
-                justify-content: center;
-                align-items: center;
+            .sub{
                 font-size: 1rem;
+                margin-left: -50%;
+                
               } .sub-two {
                 display: grid;
                 justify-content: right;
@@ -868,7 +879,7 @@ nav {
               
               .html {
                 margin-top: 10%;
-                margin-left: 90%;
+                margin-left: 55%;
                 transition: left 1s ease;
               }.html p{
                 font-size: 4rem;
@@ -878,6 +889,8 @@ nav {
                 margin-left: -80%;
               }.css p{
                 font-size: 3rem;
+              } .css h2 {
+                margin-left: -75%;
               }
               
               .javascript {
@@ -912,10 +925,10 @@ nav {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 0.5fr);
         grid-template-areas: 
-            '. . services services'
-            '. . web web'
-            '. . development development'
-            '. . uiux uiux';
+            '. services services .'
+            '. web web .'
+            '. development development .'
+            '. uiux uiux .';
             gap: 40px;
         margin-top: 20%;
         
