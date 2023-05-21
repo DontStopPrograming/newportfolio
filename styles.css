@@ -385,7 +385,7 @@ nav {
 /* SECTION FOUR  */
 .sectionFour {
     color: #232323;
-    min-height: 50vh;
+    min-height: 70vh;
 }
 
 
@@ -414,8 +414,9 @@ nav {
     .sectionFour .container-title-sectionFour {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 0.5fr);
+        grid-template-rows: repeat(5, 0.5fr);
         grid-template-areas: 
+            '. . . .'
             '. . services services'
             '. . web web'
             '. . development development'
@@ -465,10 +466,16 @@ nav {
         object-fit: cover;
     }
 
+    .me {
+        padding: 20px 30%;
+        text-align: center;
+        color: #fff;
+        font-size: 5rem;
+    }
     .aboutMe {
         padding: 0px 20%;
         text-align: center;
-    }
+    } 
       
     /* Section Six */
    
@@ -826,7 +833,7 @@ nav {
                 align-items: center;
                 padding: 0 20px;
                 font-size: 12px;
-              }
+              } 
 
            .sectionThree {
             height: 110vh;
@@ -914,7 +921,7 @@ nav {
         background-image: url('img/fondo.svg');
         background-size: cover;
         background-position: center;
-        height: 70vh;
+        height: 80vh;
     }
     
     .sectionFive p {
@@ -938,6 +945,12 @@ nav {
         object-fit: cover;
     }
 
+    .me {
+        padding: 20px 30%;
+        text-align: center;
+        color: #fff;
+        font-size: 2rem;
+    }
     .aboutMe {
         padding: 2% 2%;
         text-align: none;
