@@ -321,6 +321,23 @@ nav {
 
 /* SECTION THREE */
 
+.html:hover p,
+.css:hover p,
+.javascript:hover p,
+.git:hover p,
+.linux:hover p,
+.react:hover p,
+.sql:hover p,
+.sass:hover p,
+.aws:hover p,
+.node:hover p,
+.sub-two:hover h2,
+.sub:hover h2,
+.s:hover + .sub-two,
+.s:hover + .sub{
+    color:rgb(255, 0, 93);
+}
+
 .sectionThree {
     overflow: hidden;
 }
@@ -351,13 +368,13 @@ nav {
     align-items: center;
     margin-left: 50%;
     font-size: 1rem;
-  } .sub-two {
+   } .sub-two {
     display: grid;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
     font-size: 1rem;
-  }
+  } 
 
   
   .css {
@@ -919,7 +936,7 @@ nav {
         background-image: url('img/fondo.svg');
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        min-height: 100vh;
     }
     
     .sectionFive p {
@@ -935,7 +952,7 @@ nav {
     .miImagen {
         margin-top: 0;
         width: auto;
-        padding: 5% 5%;
+        padding: 0 5%;
         
     } .miImagen img {
         width: 100%;
