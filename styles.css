@@ -238,6 +238,7 @@ nav {
     width: 350px;
     height: 350px;  
     margin-left: 20%;  
+    
 }
 .first-project{
     grid-area: first-project;
@@ -296,6 +297,7 @@ nav {
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     margin: 0;
+    font-size: 1.5rem;
     padding: 10px;
 } 
 
@@ -341,7 +343,22 @@ nav {
     transition: left 1s ease;
   }.html p{
     font-size: 8rem;
+  } 
+
+  .sub {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    font-size: 1rem;
+  } .sub-two {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 1rem;
   }
+
   
   .css {
     margin-left: 20%;
@@ -357,7 +374,7 @@ nav {
 }
 
 .git {
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .sk2 {
     font-size: 1.5rem;
@@ -419,10 +436,7 @@ nav {
 
 
     /* Section Five */
-
-    .sectionFive{
-        min-height: 20vh;
-    }
+    
     .sectionFive p {
         padding: 0 20px;
     }
@@ -437,7 +451,7 @@ nav {
         background-position: center;
         font-size: 1.5rem;
         height: 100vh;
-        
+        min-height: 20vh;
     }
 
     .miImagen {
@@ -522,11 +536,13 @@ nav {
             border: #ff00ff 1px solid;
         }
         .send {
+            background: none;
+            border: none;
+            cursor: pointer;
             margin-left: 12%;
             font-size: 2rem;
-        } .send a {
             color: #ff00ff;
-        }
+        } 
 
 /* RESPONSIVE 768PX IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
     
@@ -741,6 +757,17 @@ nav {
 
 
         /* Section Two responsive */
+        .container-projects .box {
+            position: relative;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 350px;
+            height: 350px;  
+            margin-left: 20%;  
+            background: linear-gradient(to right, #fff 70%, #f0f0f0 30%);
+            
+            
+        }
 
        .icons {
             position: absolute;
@@ -748,14 +775,11 @@ nav {
             justify-content: center;
             align-items: center;
             top: 50%;
-            left: 80%;
+            left: 84%;
             transform: translate(-50%, -50%);
 
-            width: 25%;
-            height: 70%;
-            border-radius: 50%;
-            background: linear-gradient(to right,rgb(251, 255, 0), rgb(255, 0, 93));
-                
+            width: 100px;
+            height: 0;
             
             
         } .icons img{
@@ -763,6 +787,7 @@ nav {
             height: 20px;
             object-fit: cover;
             margin-top: 10px;
+            
           } 
 
        
@@ -788,8 +813,23 @@ nav {
             }   
 
             /* Section Three responsive 768PX */
+
+            .sub {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                margin-left: 50%;
+                font-size: 1rem;
+              } .sub-two {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                padding: 0 20px;
+                font-size: 12px;
+              }
+
            .sectionThree {
-            height: 100vh;
+            height: 110vh;
            } 
 
            .skills {
@@ -826,7 +866,7 @@ nav {
             }
             
             .git {
-                margin-top: 15%;
+                margin-top: 10%;
             }
             .sk2 {
                 font-size: 1.5rem;
@@ -874,7 +914,7 @@ nav {
         background-image: url('img/fondo.svg');
         background-size: cover;
         background-position: center;
-        
+        height: 70vh;
     }
     
     .sectionFive p {
@@ -905,6 +945,10 @@ nav {
 
 
     /* Section Six responsive 768PX */
+
+    .sectionSix {
+        min-height: 70vh;
+    }
 
     .sectionSix .container-title-sectionSix h1{
         font-size: 2rem;
