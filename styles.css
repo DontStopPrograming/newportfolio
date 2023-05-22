@@ -869,7 +869,8 @@ nav {
               } 
 
            .sectionThree {
-            min-height: 130vh;
+            
+            height: 120vh
            } 
 
            .skills {
