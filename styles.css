@@ -15,6 +15,14 @@ body {
 /* } .body.menu-open {
     overflow: hidden;
     } */
+footer {
+    background: #232323;
+    color: #fff;
+    font-size: 12px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 
  section {
     /* max-width: 1200px; */
@@ -986,20 +994,20 @@ nav {
 
             /* Section Three responsive 768PX */
 
-            .sub{
+           .sub{
                 font-size: 1rem;
                 margin-left: -50%;
                 
               } .sub-two {
                 display: grid;
-                justify-content: right;
-                align-items: right;
+                justify-content: center;
+                align-items: center;
                 font-size: 12px;
               } 
 
            .sectionThree {
             
-            height: 120vh
+            min-height: 120vh;
            } 
 
            .skills {
@@ -1041,8 +1049,8 @@ nav {
                 margin-top: 20%;
             }
             .sk2 {
-                font-size: 1.5rem;
-                padding: 5px 20px;
+                font-size: 2rem;
+                
             }
            
 
