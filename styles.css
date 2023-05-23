@@ -587,8 +587,137 @@ nav {
             color: #ff00ff;
         } 
 
-/* RESPONSIVE 768PX IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
+/* RESPONSIVE   RESPONSIVE PX IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
     
+@media (max-width: 992px){
+    section {
+        /* max-width: 1200px; */
+        max-width: auto;
+        width: auto;
+        min-height: 80vh;
+        
+        
+        /* padding: 0 20px;     */
+    }
+
+    /* section two 992px */
+    .container-projects {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: 
+           '. first-project two-project three-project .';
+        gap: 0;
+        margin-top: 20%;
+    }
+    
+    .container-projects .box {
+        position: relative;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 250px;
+        height: 250px;  
+        margin-left: 10%;  
+        
+    }
+
+    /* section three responsive 992 */
+    .sub {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-left: -70%;
+        
+       } .sub-two {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+        font-size: 12px;
+      } 
+
+   .sectionThree {
+    
+    height: 120vh
+   } 
+
+   .skills {
+        font-size: 3rem;
+    }
+
+    .skills {
+        transition: left 1s ease;
+        margin-left: none;
+      } .skills h1 {
+        font-size: 5rem;
+        
+      }
+      
+      .html {
+        margin-top: 10%;
+        margin-left: 70%;
+        transition: left 1s ease;
+      }.html p{
+        font-size: 4rem;
+      } 
+      
+      .css {
+        margin-left: -20%;
+      }.css p{
+        font-size: 4rem;
+      } .css h2 {
+        margin-left: -80%;
+      }
+      
+      .javascript {
+        margin-top: 10%;
+        margin-left:30%;
+    }.javascript p {
+        font-size: 4rem;
+    }
+    
+    .git {
+        margin-top: 20%;
+    }
+    .sk2 {
+        font-size: 1.5rem;
+        padding: 5px 15%;
+    }
+
+   /* section five responsive 992 */
+
+   .me {
+    padding: 20px 30%;
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    }
+    .aboutMe {
+    padding: 0px 20%;
+    text-align: center;
+    }
+    .aboutMe p {
+        font-size: 1rem;
+    } 
+    .sectionFive span {
+        font-size: 1.5rem;
+    }
+    
+}
+
+    /* section six responsive 992 */
+    .sectionSix .container-title-sectionSix h1{
+        font-size: 4rem;
+    }
+
+    /* Nav */
+    
+    nav ul li {
+    color: #fff;
+    font-size: 1rem;
+    }
+
 @media (max-width: 768px){
   
     body {
@@ -996,7 +1125,7 @@ nav {
     /* Section Six responsive 768PX */
 
     .sectionSix {
-        min-height: 70vh;
+        min-height: 120vh;
     }
 
     .sectionSix .container-title-sectionSix h1{
@@ -1056,4 +1185,6 @@ nav {
         }
 
 }
+
+
 
