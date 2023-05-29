@@ -66,12 +66,18 @@
             <div class = "line-one"> </div>
         </div>
         <div class = "container-projects">
-           <div data-aos="zoom-in" data-aos-delay="500" class="first-project box"> 
-            <p> Other project</p>
+            <div data-aos="zoom-in" data-aos-delay="500" class="first-project box"> 
+            <p id = "title-weather"> API Weather</p>
+            <div class = "gifOne">
+                <img src="img/weather.gif" onmouseover = "addGlow()" onmouseout = "removeGlow()"></img>
+            </div>
             <div class = "icons"> 
-                <img src="img/html.svg" alt="logo html5">
-                <img src="img/css.svg" alt="logo css">
-                <img src="img/javascript.svg" alt="logo javascript">
+                <p id="title-icons"> Technologies that I used:</p>
+                <img class = "icon" src="img/html.svg" alt="logo html5">
+                <img class = "icon" src="img/css.svg" alt="logo css">
+                <img class = "icon" src="img/react.svg" alt="logo react">
+                <img class = "icon" src="img/material.svg" alt="logo material">
+                
             </div>
         </div>
            <div data-aos="zoom-in" data-aos-delay="300" class="two-project box">
@@ -187,9 +193,11 @@
     <script src = "clickNav.js"> </script>
     <script src = "hoverSectionOne.js"> </script>
     <script src = "color.js"> </script>
+    <script src = "glow.js"> </script>
+    <script src = "letterWeather.js"> </script>
 
 </body>
 <footer>
-    @All rights reserved nazarioDev.
+    <p> @All rights reserved nazarioDev - Release Date: last update 29.05.2023 - v.2.0</p> 
 </footer>
 </html>
