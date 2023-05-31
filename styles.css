@@ -295,7 +295,7 @@ nav {
 }
 .container-projects #title-weather {
     color: #fff;
-    font-size:1.9rem;
+    font-size:1.2rem;
 } .container-projects #title-weather.opacity-zero {
     opacity: 0;
     color: none;
@@ -1030,8 +1030,14 @@ nav {
                         border-radius: 10px;
                         width: 100%;
                         height: 150px;  
-                        margin-left: 0;  
+                        margin-left: 0;
+                        background: linear-gradient(to right,rgb(0, 255, 51), rgb(255, 98, 98));
                     }   
+
+                    .container-projects #title-weather {
+                        margin-left: -20%;
+                        color: #232323;
+                    } 
 
                     .first-project .gifOne img{
                         width: 60%;
@@ -1055,9 +1061,8 @@ nav {
             justify-content: center;
             align-items: center;
             top: 50%;
-            left: 84%;
+            left: 80%;
             transform: translate(-50%, -50%);
-
             width: 100px;
             height: 0;
             
