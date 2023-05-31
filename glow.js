@@ -1,5 +1,5 @@
 const description = document.getElementById('title-icons')
-const icons = document.querySelector('icons')
+const icons = document.querySelector('.icons')
 
 function addGlow() {
     description.classList.add('glowingTech')
