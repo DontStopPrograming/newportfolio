@@ -545,6 +545,7 @@ nav {
     
     .sectionFive p {
         padding: 0 20px;
+        font-size: 1.2rem;
     }
 
     .sectionFive span {
@@ -557,11 +558,11 @@ nav {
         background-position: center;
         font-size: 1.5rem;
         height: 100vh;
-        min-height: 20vh;
+        min-height: 150vh;;
     }
-
+    
     .miImagen {
-        width: 700px;
+        width: 600px;
         padding: 5% 0;
         margin: 0 auto;
         
@@ -579,8 +580,19 @@ nav {
     }
     .aboutMe {
         padding: 0px 20%;
-        text-align: center;
-    } 
+        text-align: left;
+    } .aboutMe p {
+        padding: 10px 20px;
+    }
+
+    .iConsider {
+        margin-top: 50px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 1.2rem;
+    } .iConsider li {
+        margin-top: 20px;
+    }
       
     /* Section Six */
    
@@ -1182,12 +1194,20 @@ nav {
         background-image: url('img/fondo.svg');
         background-size: cover;
         background-position: center;
-        min-height: 100vh;
+        min-height: 110vh;
     }
     
     .sectionFive p {
-        padding: 0 20px;
-        font-size: 1rem;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .iConsider {
+        margin-top: 50px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 18px;
+    } .iConsider li {
+        margin-top: 20px;
     }
 
     .sectionFive span {
@@ -1213,8 +1233,8 @@ nav {
         font-size: 2rem;
     }
     .aboutMe {
-        padding: 2% 2%;
-        text-align: none;
+        padding: 20px 2%;
+        text-align: left;
     }
 
 
