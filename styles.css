@@ -1194,7 +1194,7 @@ nav {
         background-image: url('img/fondo.svg');
         background-size: cover;
         background-position: center;
-        min-height: 110vh;
+        min-height: 150vh;
     }
     
     .sectionFive p {
