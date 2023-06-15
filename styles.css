@@ -558,7 +558,7 @@ nav {
         background-position: center;
         font-size: 1.5rem;
         height: 100vh;
-        min-height: 120vh;
+        min-height: 150vh;
     }
     
     .miImagen {
@@ -1263,25 +1263,19 @@ nav {
         align-items: center;
         flex-direction: column;
         padding: 10% 10px;
-        color: #232323;
+       
     }
         form input[type="text"] {
             padding: 10px;
             width: 400px;
-            color: #fff;
-            border: transparent;
-            background: transparent;
-            border-bottom: #ff00ff 1px solid;
+            
         } form input[type="text"]:focus {
             background: #232323;
             color: #fff;
         }  form input[type="email"] {
             padding: 10px;
             width: 400px;
-            color: #232323;
-            border: transparent;
-            background: transparent;
-            border-bottom: #ff00ff 1px solid;
+           
             
         } 
             
@@ -1296,9 +1290,7 @@ nav {
             resize: none;
             width: 400px;
 
-            border: transparent;
-            background: transparent;
-            border-bottom: #ff00ff 1px solid;
+           
         }
         .send {
             margin-left: 40%;
