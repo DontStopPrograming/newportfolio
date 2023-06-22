@@ -274,25 +274,34 @@ nav {
     position: relative;
     grid-area: first-project;
     color:#232323;
-} .glowingTech {
-    animation: glowingAni 2s infinite;
-}   @keyframes glowingAni {
-    0%{
-        text-shadow: 0 0 5px white;
-        filter:brightness(100%);
-        color: rgb(255, 4, 255);
+} 
+.two-project {
+    position: relative;
+        grid-area: two-project;
+        color:#232323;
+    } 
+
+    .container-projects .glowingTech {
+        animation: glowingAni 2s infinite;
+    }   @keyframes glowingAni {
+        0%{
+            text-shadow: 0 0 5px white;
+            filter:brightness(100%);
+            color: rgb(255, 4, 255);
+        }
+        50%{
+            text-shadow: 0 0 10px white;
+            filter:brightness(50%);
+            color: rgb(255, 4, 255);
+        }
+        100%{
+            text-shadow: 0 0 5px white;
+            filter:brightness(100%);
+            color: rgb(255, 4, 255);
+        }
     }
-    50%{
-        text-shadow: 0 0 10px white;
-        filter:brightness(50%);
-        color: rgb(255, 4, 255);
-    }
-    100%{
-        text-shadow: 0 0 5px white;
-        filter:brightness(100%);
-        color: rgb(255, 4, 255);
-    }
-}
+
+
 .container-projects #title-weather {
     color: #fff;
     font-size:1.2rem;
@@ -300,7 +309,7 @@ nav {
     opacity: 0;
     color: none;
     z-index: 0;
-} .icons.colorDark  img {
+} .container-projects .icons.colorDark  img {
     filter: invert(100%);
 }
 

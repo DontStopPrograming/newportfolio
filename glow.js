@@ -1,12 +1,22 @@
-const description = document.getElementById('title-icons')
-const icons = document.querySelector('.icons')
-
-function addGlow() {
-    description.classList.add('glowingTech')
-    icons.classList.add('colorDark')
-}
-
-function removeGlow(){
-    description.classList.remove('glowingTech')
-    icons.classList.remove('colorDark')
-}
+function addGlow(container) {
+    const descriptions = container.querySelectorAll('.title-icons');
+    const icons = container.querySelectorAll('.icons');
+    descriptions.forEach((description) => {
+      description.classList.add('glowingTech');
+    });
+    icons.forEach((icon) => {
+      icon.classList.add('colorDark');
+    });
+  }
+  
+  function removeGlow(container) {
+    const descriptions = container.querySelectorAll('.title-icons');
+    const icons = container.querySelectorAll('.icons');
+    descriptions.forEach((description) => {
+      description.classList.remove('glowingTech');
+    });
+    icons.forEach((icon) => {
+      icon.classList.remove('colorDark');
+    });
+  }
+  
