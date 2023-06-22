@@ -1325,14 +1325,14 @@ nav {
     }
         form input[type="text"] {
             padding: 10px;
-            width: 400px;
+            width: 300px;
             
         } form input[type="text"]:focus {
             background: #232323;
             color: #fff;
         }  form input[type="email"] {
             padding: 10px;
-            width: 400px;
+            width: 300px;
            
             
         } 
@@ -1346,7 +1346,7 @@ nav {
         }
         textarea {
             resize: none;
-            width: 400px;
+            width: 300px;
 
            
         }
