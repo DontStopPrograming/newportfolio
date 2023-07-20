@@ -1327,6 +1327,7 @@ nav {
             background-repeat: no-repeat;
             background-size: cover;
             
+            
           }
         
           .one-description {
@@ -1334,6 +1335,7 @@ nav {
             background-image: none;
             background-image: url('');
             background:#1c1c1c;
+            opacity: 90%;
             background-position: none;
             width: 85vw;
             height: 30vh;
@@ -1359,12 +1361,12 @@ nav {
             margin-left: 20%;
           }
           .wel h1 {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
             font-weight: 900;
             margin-left: 10%;
             
           }  .wel p {
-            font-size: 1.3rem;
+            font-size: 1rem;
             margin-left: 5%;
           } .networks {
             margin-left: 20%;
