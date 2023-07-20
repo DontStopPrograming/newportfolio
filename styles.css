@@ -1338,8 +1338,10 @@ nav {
             opacity: 90%;
             background-position: none;
             width: 85vw;
-            height: 30vh;
+            height: 40vh;
             margin-left: 0;
+            margin-top: 0;
+            padding: 20px;
             
         }
 
@@ -1361,9 +1363,10 @@ nav {
             margin-left: 20%;
           }
           .wel h1 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-weight: 900;
             margin-left: 10%;
+            color: transparent;
             
           }  .wel p {
             font-size: 1rem;
