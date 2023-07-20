@@ -13,12 +13,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;500&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sassy+Frass&family=Unbounded:wght@500;800&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Slider -->
+    <link rel="stylesheet" href="https://unpkg.com/@splidejs/splide@3.0.9/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.9/dist/css/themes/splide-default.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.9/dist/js/splide.min.js"></script>
+
+
+
+    <!-- AOS -->
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<!--  -->
+
+
+
 <body>
+    
     <header>
         <nav class = container-nav>
             <ul class = "nav-menu">
@@ -39,138 +55,214 @@
     </header>
 
     <section id = "sectionOne" class = "sectionOne">
-        <div class = "one-description"> 
-            <p class = "wel"> Welcome my profile</p> 
-            <h1 class = "dev"> Im Developer</h1><br>
-            <div><p id = "my"> My name is <p id = "nam"> Nazario</p></p></div>
-            <br>
-            <div > <p id = "abo"> I like much programing and I love the possibility of working with multiple technologies, technology is my passion. </p> </div>
-            <div data-aos="fade-up" data-aos-delay="1000" class = "networks">
-                <a href="https://github.com/DontStopPrograming"><img src="img/git.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/nazariocoding"><img src="img/lin.png" alt=""></a>
-                <a href="https://www.credly.com/users/juan-jesus-nazario-vega/badges"><img class = "cisco" src="img/cisco.svg" alt=""></a>
-                <a class = "resume" href="./img/curriculum.pdf" download="curriculum.pdf"><img src="img/resume.png" alt=""></a>
-                <!-- <a href=""><img src="img/fac.png" alt=""></a> -->
-            </div>
-        </div>
-
-          
+        <video class = "background-video" autoplay loop muted> 
+            <source src = "./img/abstract.mp4" type = "video/mp4">
+        </video> 
         
-        <div class = "one-image"> 
-            <img src="img/lentes.png" alt = "me">
+        <div class = "one-description"> 
+            <div class = "wel" data-aos="zoom-in" data-aos-delay="300">
+                <h1> FULLSTACK DEVELOPER </h1> 
+                <h2> NAZARIO </h2>
+                <p>I love the possibility of working with multiple technologies</p> 
+
+                <div class = "networks" data-aos="fade-up" data-aos-delay="1000" >
+                    <a href="https://github.com/DontStopPrograming"> <img src="./img/git.png" alt=""></a>
+                    <a href="https://www.credly.com/users/juan-jesus-nazario-vega/badges"><img class = "cisco" src="img/cisco.svg" alt=""></a>
+                    <a class = "resume" href="./img/curriculum.pdf" download="curriculum.pdf"><img src="img/resume.png" alt=""></a>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id = "sectionTwo" class = "sectionTwo">
-        <div data-aos="zoom-in" data-aos-delay="300" class = "container-title-sectionTwo title">
-            <h1> My Recent Works</h1>
+        <div class = "title" data-aos="zoom-in" data-aos-delay="300" >
             <div class = "line-one"> </div>
         </div>
+
         <div class = "container-projects">
             <div data-aos="zoom-in" data-aos-delay="500" class="first-project box">
-            <a href="https://github.com/DontStopPrograming/theWeather">
-            <p id = "title-weather"> API Weather</p>
-            <div class = "gifOne">
-                <img src="img/weather.gif" onmouseover = "addGlow(this.parentNode.parentNode)" onmouseout = "removeGlow(this.parentNode.parentNode)"></img>
-            </div>
-            <div class = "icons"> 
-                <p class ="title-icons"> Technologies that I used:</p>
-                <img class = "icon" src="img/html.svg" alt="logo html5">
-                <img class = "icon" src="img/css.svg" alt="logo css">
-                <img class = "icon" src="img/react.svg" alt="logo react">
-                <img class = "icon" src="img/material.svg" alt="logo material">
-                <img class = "icon" src="img/github.svg" alt="logo github">
-            </div>
-            </a> 
+                <div class = "gif">
+                    <a href="https://github.com/DontStopPrograming/theWeather">
+                    <img src="img/weather.gif" onmouseover = "addGlow(this.parentNode.parentNode)" onmouseout = "removeGlow(this.parentNode.parentNode)"></img>
+                    </a> 
+                </div>
+
+                <div class = "icons"> 
+                    <div class ="title-icons">
+                        <h1> The Weather API </h1>
+                        <p> Let me introduce you to weather API, an incredible tool to <br>obtain real-time weather forecasts</p>
+                    </div>
+
+                    <div class = "icon">
+                        <div> <h3> Technologies that I used:</h3></div>
+                        <div class = "images-icon">
+                            <img src="img/html5.svg" alt="logo html5">
+                            <img src="img/css3.svg" alt="logo css">
+                            <img src="img/react.svg" alt="logo react">
+                            <img src="img/material.svg" alt="logo material">
+                            <img src="img/github.svg" alt="logo github">
+                        </div>
+                    </div>
+                </div>
+                
         </div>
            <div data-aos="zoom-in" data-aos-delay="300" class="two-project box">
-            <a href="https://backend-crud-production.up.railway.app">
-                <p id = "title-weather"> Test Backend</p>
-                <div class = "gifOne">
+               <div class = "gif">
+                    <a href="https://backend-crud-production.up.railway.app">
                     <img src="img/backend.gif" onmouseover = "addGlow(this.parentNode.parentNode)" onmouseout = "removeGlow(this.parentNode.parentNode)"></img>
+                    </a>
                 </div>
+                
                 <div class = "icons"> 
-                    <p class ="title-icons"> Technologies that I used:</p>
-                    <img class = "icon" src="img/mysql.svg" alt="logo mysql">
-                    <img class = "icon" src="img/node.svg" alt="logo node">
-                    
-                    
+                    <div class ="title-icons"> 
+                        <h1> Backend CRUD </h1>
+                        <p> In this small application we use the crud design pattern <br> to get response from the server</p>
+                    </div>
+                        
+                    <div class = "icon">
+                        <div> <h3> Technologies that I used:</h3></div>
+                        <div class = "images-icon">
+                            <img class = "icon" src="img/mysql.svg" alt="logo mysql">
+                            <img class = "icon" src="img/node.svg" alt="logo node">
+                        </div>
+                    </div>
                 </div>
-            </a>
+                </div>
 
-            </div>
+            
            
            <div data-aos="zoom-in" data-aos-delay="300" class="three-project box">
-            <p> Other project</p>
+
+            <div class = "gif">
+                <a href="">
+                <img src="img/dev.png" onmouseover = "addGlow(this.parentNode.parentNode)" onmouseout = "removeGlow(this.parentNode.parentNode)"></img>
+                </a> 
+            </div>
+            
+            <div class = "icons"> 
+                <div class ="title-icons"> 
+                    <h1> Comming Soon </h1>
+                    <p> ☕ Working on it</p>
+                </div>
+                    
+                <!-- <div class = "icon">
+                    <div> <h3> Technologies that I used:</h3></div>
+                    <div class = "images-icon">
+                        <img class = "icon" src="img/mysql.svg" alt="logo mysql">
+                        <img class = "icon" src="img/node.svg" alt="logo node">
+                    </div>
+                </div> -->
+            </div>
+            </div>
+
+
            </div>
         </div>
     </section>
 
+    <!--html It is the structure language for the page infrastructure. 
+        css3 Creates the structured language styles,
+        js which allows us to create functionalities to show interactivity-->
+
     <section id = "sectionThree" class = "sectionThree">
         <div class = "container-title-sectionThree" >
-            <div class = "skills sk"><h1> SKILLS</h1> </div> 
-            <div class = "html"> <p> HTML5</p> <h2 data-aos="zoom-in" data-aos-delay="300" class = "sub s"> infrastructure of the page</h2> </div>
-            <div class = "css"> <p> CSS</p> <h2 data-aos="zoom-in" data-aos-delay="300" class = "sub s"> styles font and animations</h2> </div>
-            <div data-aos="zoom-in" data-aos-delay="300" class = "javascript"> <p> JAVASCRIPT</p> <h2 class = "sub s"> to program functionalities</h2> </div>
+            <div class = "skills"><h1> SKILLS</h1> </div> 
+            <div class = "html5 sk"> <h2 class = "html"> HTML5 - Allow us to define hierarchies or levels</h2> <p class = "sub">  </p> </div>
+            <div class = "sk"> <h2 class = "css"> CSS - enhances content with visually appealing results</h2> <p class = "sub">    </p> </div>
+            <div class = "sk"> <h2 class = "javascript"> JAVASCRIPT - High-level cross-platform programming language</h2> <p class = "sub"> </p> </div>
             
-            <div data-aos="zoom-in" data-aos-delay="300" class = "git sk2"> <p> GIT</p> <h2 class = "sub-two s"> it helps me to have support of my work</h2></div>
-            <div data-aos="zoom-in" data-aos-delay="300" class = "linux sk2" > <p> LINUX</p> <h2 class = "sub-two s"> open source kernel</h2></div>
-            <div data-aos="zoom-in" data-aos-delay="300" class = "react sk2" > <p> REACT.JS</p> <h2 class = "sub-two s"> the bookshop improves the reactivity of the aplications</h2></div>
-            <div data-aos="zoom-in" data-aos-delay="300" class = "sql sk2" > <p> SQL</p> <h2 class = "sub-two s"> to be able make questions the server </h2></div>
-            <div data-aos="zoom-in" data-aos-delay="300" class = "sass sk2" > <p> SASS</p> <h2 class = "sub-two s"> more efficient than css in terms of formatting </h2></div>
-            <div data-aos="zoom-in" data-aos-delay="300" class = "aws sk2" > <p> AWS</p> <h2 class = "sub-two s"> allows us various cloud services to manage our application </h2></div>
-            <div data-aos="zoom-in" data-aos-delay="300" class = "node sk2" > <p> NODE.JS</p> <h2 class = "sub-two s"> to use data server and to have a response to show the client </h2></div>
+            <div class = "container-lista">
+                <div class = "linux sk2"> <h2  data-aos="zoom-in" data-aos-delay="700"> LINUX </h2> <p class = "sub"> open source kernel  </p></div>
+                <div class = "git sk2"> <h2 data-aos="zoom-in" data-aos-delay="800"> GIT </h2> <p class = "sub">It help us to have support of my work </p></div>
+                <div class = "node sk2"> <h2 data-aos="zoom-in" data-aos-delay="900"> NODE JS </h2> <p class = "sub"> To use data server and to have a response to show the client</p></div>
+                <div class = "aws sk2"> <h2 data-aos="zoom-in" data-aos-delay="1000"> AWS </h2> <p class = "sub"> Allow us various cloud services to manage our application </p></div>
+                <div class = "react sk2"> <h2 data-aos="zoom-in" data-aos-delay="1100"> REACT JS </h2> <p class = "sub"> The bookshop improves the reactivity of the aplications </p></div>
+                <div class = "mongo sk2"> <h2 data-aos="zoom-in" data-aos-delay="1200"> MONGO DB </h2> <p class = "sub"> Non-relational database for storing collections and documents </p></div>
+                <div class = "sql sk2"> <h2 data-aos="zoom-in" data-aos-delay="1300"> SQL </h2> <p class = "sub"> To be able make questions the server</p></div>
+                <div class = "sass sk2"> <h2 data-aos="zoom-in" data-aos-delay="1400"> SASS </h2> <p class = "sub"> More efficient than css in terms of formatting </p></div>
+            </div>
         </div>
         
     </section> 
 
-    <section id = "sectionFour" class = "sectionFour">
+     <section id = "sectionFour" class = "sectionFour">
         <div class = "container-title-sectionFour">
-            <h1 data-aos="zoom-in-down" data-aos-delay="300" class = "services"> What Services I provide</h1>
-            <div data-aos="zoom-in-down" data-aos-delay="300" class = "web">
-                <div class = "serv"> <img src="img/design.svg" alt=""> <h2>Web Design </h2> </div>
-                <p> Lest's agree on the best visual appearance of your site</p>
+            <div class = "services" data-aos="zoom-in" data-aos-delay="300">
+                
+                <h1> What Services I provide</h1> <br>
+                <p> The best visual aspect of your website <br>
+                Creation and maintenance of websites and web applications <br>
+                </p>
             </div>
-            <div data-aos="zoom-in-down" data-aos-delay="300" class = "development">
-                <div class = "serv"> <img src="img/development.svg" alt=""> <h2> Web Developer</h2> </div>
-                <p> Creation and maintenance of websites and web applications</p> 
-            </div>
-            <div data-aos="zoom-in-down" data-aos-delay="300" class = "uiux">
-                <div class = "serv"> <img src="img/uxui.svg" alt=""> <h2> UI/UX </h2> </div>
-                <p> Let me evaluate you the best functionality</p>
+            
+        </div>
+        
+        <div class = "slider">
+            <div class = "cards">
+                <div class = "images-card" data-aos="zoom-in" data-aos-delay="300" ><img src="img/webDesign.png" alt=""> <h2>Web Design </h2> <p> Creation of visually appealing, intuitive and responsive websites that reflect the identity of your brand or bussiness</p></div>
+                <div class = "images-card" data-aos="zoom-in" data-aos-delay="300" ><img src="img/webDevelopment.png" alt=""> <h2> Web Developer</h2> <p> Manage user information and relevant data, dynamic interaction, high performance and security</p></div>
+                <div class = "images-card" data-aos="zoom-in" data-aos-delay="300" ><img src="img/uxui.png" alt=""> <h2> UI/UX </h2> <p> I balance visual appearance with ease of use, according to requirements</p> </div>
             </div>
         </div>
-    </section>
+        
+    </section>  
+
 
     <section id = "sectionFive" class = "sectionFive">
-        <h1 data-aos="zoom-in-down" data-aos-delay="500" class = "me"> About me</h1>
-        <div data-aos="zoom-in" data-aos-delay="700" class = "miImagen"> <img src="img/pc.svg" alt=""></div>
-        <div class = "aboutMe">
-            <p data-aos="zoom-in" data-aos-delay="800"> I am a <span class = "iam"> freelance fullstack</span>  oriented developer, eager to learn more every day.</p>
-            <p data-aos="zoom-in" data-aos-delay="900"> <span class = "love">I love technology</span> but also nature, sports and video games. 
-                Since I was little I liked video games I think that since I got to know video games I had an interest how technology advances.</p>
-            <p data-aos="zoom-in" data-aos-delay="1000">  <span class = "love">Works in charge</span> (not as programmer):
-                Printer supervisor, performing maintenance, repair and installation service.
-                Inventory assistant in a textile company, information entry, management of Excel and Word programs.
-                Administrative assistant in restaurant, customer service, purchase and sale of merchandise.
-                Prevention and security in hypermarkets, merchandise control and personnel control.</p>
+        
+            <div class = "firstAbout" data-aos="zoom-in" data-aos-delay="300">
+                <div class = "firstAbout-work">
+                    <h1> About me</h1>
+                    <p>I am a freelance fullstack oriented developer, I am working on the web since 2023. Eager to learn more every day <br> Love technology but also nature, sports and video games. </p>
+                </div>
+                <div class = "abajo"> <img src="./img/abajo.gif" alt=""></div>
+                <div class = "foto"> <img src="./img/lentes.png" alt=""></div> 
+                
+                
+            </div>
+            
+            <div class = "secondAbout" data-aos="zoom-in" data-aos-delay="300">
+                <p>I lived in Peru in the capital of Lima, Peru has a variety of climates and that is great. <br><br>   
+                My approach to technology began with video games, from there I was very interested in how video games were built based on hardware and software. <br><br>
+                Graduating with Thecnical Informatic in 2021, These days, I am looking for new job opportunities in the technology field in order to add value.
+                
+            </div>
 
-            <div data-aos="zoom-in" data-aos-delay="1200" class = "iConsider">
-                <h2> I consider myself :</h2>
+            
+
+            <div class = "thirdAbout" data-aos="zoom-in" data-aos-delay="300">
+                <div class = "assembler"> <img src="./img/assembler.jpg" alt=""></div> 
+                 <div class = "copier"> <img src="./img/copier.jpg" alt=""></div>
+                <div class = "thirdAbout-work">
+                    <h1>Work I have done </h1><br>
+                    <p> Printer supervisor, performing maintenance, repair and installation service. <br><br>
+                    Inventory assistant in a textile company, information entry, management of Excel and Word programs. <br><br>
+                    Administrative assistant in restaurant, customer service, purchase and sale of merchandise. <br><br>
+                    Prevention and security in hypermarkets, merchandise control and personnel control. <br><br>
+                    Computer maintenance and assembly.
+                    </p>
+                </div>
+            </div>
+        
+
+            <div class = "fourthAbout" data-aos="zoom-in" data-aos-delay="300">
+                <h1> I consider myself </h1><br>
                 <li>Be adaptable to collaborative environments</li>
                 <li>I enjoy facing challenges</li>
                 <li>I have strong desire to learn new technologies</li>
                 <li>I always strive to go the extra mile</li>
             </div>
             
-        </div>
-
+        
     </section>
 
     <section id = "sectionSix" class = "sectionSix">
         <div class = "container-title-sectionSix">
             <div data-aos="zoom-in" data-aos-delay="300" class = "get" > <h1>Get in touch</h1></div>
-            <div data-aos="zoom-in" data-aos-delay="800" class = "with"> <h1>with me </h1></div>
+            <div data-aos="zoom-in" data-aos-delay="500" class = "with"> <h1>with me </h1></div>
+            <div> <h2>I am in permanent learning and continuous improvement. If you would like to contact me, send me a message, I will get back to you as soon as possible. </h2></div>
+            <div class = "correo"> <img src="./img/correo.png" alt=""></div>
+            
             <form data-aos="zoom-out" data-aos-delay="1000" action="https://formsubmit.co/nzrjj90@gmail.com" method = "POST">
                 <div>
                     <input type="text" name = "user" value = "" placeholder="Name ..." required>
@@ -186,8 +278,9 @@
                     <label for="message"></label>
                     <textarea name = "message" rows = "4" value = "" placeholder = " Matter..." required></textarea>
                 </div>
-
+                
                 <input class = "send" type="submit" value = "Send">
+                
                 <input type="hidden" name = "_next" value = "https://nazariodev.up.railway.app/">
                 <input type="hidden" name = "_captcha" value = "false">
             </form>
@@ -210,6 +303,7 @@
 
     <script src = "scrollLeft.js"> </script>
     <script src = "scrollRight.js"> </script>
+    
 
     <script src = "clickNav.js"> </script>
     <script src = "hoverSectionOne.js"> </script>
@@ -217,6 +311,23 @@
     <script src = "glow.js"> </script>
     <script src = "letterWeather.js"> </script>
 
+    <script src = "parallax.js"> </script>
+
+    <script src = "inputs.js"> </script>
+
+    <script src = "perpective.js"> </script>
+
+    <script src = "transitionPage.js"> </script>
+
+    <!-- <script src = "video.js"> </script> -->
+
+    <script src = "slider.js"> </script>
+
+    
+        
+    
+
+    
 </body>
 <footer>
     <p> @All rights reserved nazarioDev - Release Date: last update 30.06.2023 - v.2.0</p> 
