@@ -1450,10 +1450,8 @@ nav {
     /* Section Three responsive 768PX */
 
     .sectionThree {
-        height: 80vh;
     }
 
-    
     .skills h1 {
         font-size: 3rem;
         margin-left: -60%;
@@ -1642,12 +1640,12 @@ nav {
     form {
         margin-top: 20px;
         margin-left: -20%;
-        padding: 50px;
+        padding: 100px;
         
         color: #fff;
         
     } form input[type="text"],form input[type="email"], textarea {
-        width: 320px; 
+        width: 200px; 
     }
 
     .container-title-sectionSix .correo {
