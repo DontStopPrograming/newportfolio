@@ -1493,7 +1493,7 @@ nav {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(1, 1fr);
-        padding: 100px 100px;                
+        padding: 100px 150px;                
     } 
     .sk2 {
         font-weight: 300;
@@ -1552,7 +1552,6 @@ nav {
         'secondAbout'
         'thirdAbout'
         'fourthAbout';
-    padding: 100px;
     color: #9167fa;
 } .sectionFive h1 {
     margin-left: 20px;
