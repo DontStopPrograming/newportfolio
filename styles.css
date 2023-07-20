@@ -684,7 +684,7 @@ nav {
             transition: .5s ease-in;
             
             
-        }
+        } 
 
         form input[type="email"] {
             padding: 10px;
@@ -714,7 +714,7 @@ nav {
         }
         .send {
             background: #c1c1c1;
-            width: 300px;
+            width: 270px;
             justify-content: space-between;
             padding: 10px;
             border: none;
@@ -1607,9 +1607,10 @@ nav {
     background: #f0f0f0;
     width: 600px;
     padding: 50px;
-    margin-left: 10%;
-    margin-top: -10%;
+    margin-left: 20px;
+    margin-top: 0;
     height: 300px;
+    
 } .fourthAbout li {
     margin-left: 20px;
 }
@@ -1657,7 +1658,10 @@ nav {
         color: #fff;
         
     } form input[type="text"],form input[type="email"], textarea {
-        width: 300px; 
+        width: 270px; 
+    } .form input[type="text"]:hover, textarea:hover, input[type="email"]:hover {
+        transform: none;
+        transition: none;
     }
 
     .container-title-sectionSix .correo {
