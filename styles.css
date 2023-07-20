@@ -151,7 +151,7 @@ nav {
 .sectionOne .one-description:hover {
     background-position: calc((var(--mouseX) - var(--centerX)) * 0.1px) calc((var(--mouseY) - var(--centerY)) * 0.1px);
     transition: background-position 0.1s ease;
-    pointer-events: none;
+    
   }  
 
 .wel {
