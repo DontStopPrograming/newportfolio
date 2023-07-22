@@ -1557,7 +1557,7 @@ nav {
     margin-left: 20px;
     font-size: 1.2rem;
 } .sectionFive p {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .firstAbout {
@@ -1605,10 +1605,10 @@ nav {
     
 } .fourthAbout {
     grid-area: fourthAbout;
-    background: #f0f0f0;
-    width: 520px;
+    background: none;
+    width: none;
     height: auto;
-    margin-left: 20%;
+    margin-left: 30%;
     margin-top: 0;
     padding: 20px;
     
