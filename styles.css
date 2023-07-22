@@ -538,7 +538,7 @@ nav {
         padding: 100px 400px;
         color: #9167fa;
      } .sectionFive h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 500;
         margin-left: 20px;
      } .sectionFive p, li {
@@ -567,9 +567,9 @@ nav {
         background: #f0f0f0;
         padding: 50px;
         margin-left: 10%;
-        margin-top: -10%;
-        width: 600px;
-        height: 300px;
+        margin-top: auto;
+        width: 520px;
+        height: auto;
     } .fourthAbout h1{
         margin-left: -10px;
     }
@@ -1555,13 +1555,14 @@ nav {
     color: #9167fa;
 } .sectionFive h1 {
     margin-left: 20px;
-    font-size: 2rem;
+    font-size: 1.2rem;
 } .sectionFive p {
     font-size: 17px;
 }
 
 .firstAbout {
     z-index: 9;
+    
 }
 
 .firstAbout-work {
@@ -1601,14 +1602,16 @@ nav {
     
 } .thirdAbout {
     grid-area: thirdAbout;
+    
 } .fourthAbout {
     grid-area: fourthAbout;
     background: #f0f0f0;
-    width: 600px;
-    padding: 50px;
-    margin-left: 20px;
+    width: 520px;
+    height: auto;
+    margin-left: 20%;
     margin-top: 0;
-    height: 300px;
+    padding: 20px;
+    
     
 } .fourthAbout li {
     margin-left: 20px;
