@@ -713,7 +713,7 @@ nav {
             border: #9167fa 1px solid;
         }
         .send {
-            background: #c1c1c1;
+            background: linear-gradient(rgb(250, 168, 250), rgb(160, 143, 254));
             width: 270px;
             justify-content: space-between;
             padding: 10px;
