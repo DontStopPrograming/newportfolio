@@ -741,9 +741,9 @@ nav {
 
         /* 1400px responsive 1400px responsive  1400px responsive* 1400px responsive */
 
-        @media (max-width: 1400px){
+        @media (max-width: 1600px){
          .sectionFive {
-            height: 220vh;
+            height: 250vh;
          }
         }
 
