@@ -739,7 +739,7 @@ nav {
             font-size: 12px;
         }
 
-        /* 1400px responsive 1400px responsive  1400px responsive* 1400px responsive */
+        /* 1600px responsive 1400px responsive  1400px responsive* 1400px responsive */
 
         @media (max-width: 1600px){
          .sectionFive {
@@ -750,6 +750,15 @@ nav {
             margin-left: 70%;
             width: 50%;
         }
+        .container-title-sectionSix .correo {
+            margin-left: 5%;
+            margin-top: 20%;
+            width: 100px;
+            height: 100px;
+    
+        }
+
+
         }
 
         /* 992PX RESPONSIVE INIT 992PX RESPONSIVEINIT 992PX RESPONSIVEINIT 992PX RESPONSIVE */
