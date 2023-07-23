@@ -744,7 +744,12 @@ nav {
         @media (max-width: 1600px){
          .sectionFive {
             height: 250vh;
-         }
+         } 
+
+        .thirdAbout-work {
+            margin-left: 70%;
+            width: 50%;
+        }
         }
 
         /* 992PX RESPONSIVE INIT 992PX RESPONSIVEINIT 992PX RESPONSIVEINIT 992PX RESPONSIVE */
