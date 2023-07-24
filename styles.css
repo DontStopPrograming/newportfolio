@@ -739,7 +739,7 @@ nav {
             font-size: 12px;
         }
 
-        /* 1600px responsive 1400px responsive  1400px responsive* 1400px responsive */
+        /* 1600px responsive 1600px responsive  1600px responsive* 1600px responsive */
 
         @media (max-width: 1600px){
          .sectionFive {
@@ -1625,18 +1625,25 @@ nav {
 } .thirdAbout {
     grid-area: thirdAbout;
     
-} .fourthAbout {
+    
+}  
+.thirdAbout-work {
+    margin-left: 0;
+    width: 100%;
+}
+.fourthAbout {
     grid-area: fourthAbout;
     background: none;
-    width: none;
+    width: 100%;
     height: auto;
-    margin-left: 30%;
+    margin-left: 0;
     margin-top: 0;
     padding: 20px;
-    
-    
-} .fourthAbout li {
+} 
+
+.fourthAbout li {
     margin-left: 20px;
+    font-size: 17px;
 }
 
 
@@ -1653,8 +1660,11 @@ nav {
 } .thirdAbout-work {
     margin-left: 0;
     margin-top: 0;
-    padding: 100px;
+    padding: 20px;
+    width: 100%;
 }
+
+
 
 
     /* Section Six responsive 768PX */
