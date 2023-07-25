@@ -1588,7 +1588,7 @@ nav {
 }
 
 .firstAbout-work {
-    padding: 100px;
+    padding: 20px;
 }
 
 .firstAbout .abajo {
@@ -1617,7 +1617,7 @@ nav {
 .secondAbout {
     grid-area: secondAbout;
     width: 100%;
-    padding: 100px;
+    padding: 20px;
     margin-top: 0;
     color: #9167fa;
     background: #1c1c1c;
@@ -1641,16 +1641,10 @@ nav {
     padding: 20px;
 } 
 
-.fourthAbout li {
-    margin-left: 20px;
-    font-size: 17px;
-}
-
-
 .thirdAbout .assembler, .copier {
     width: 400px;
     height: 300px;
-    margin-left: 20%;
+    margin-left: 20px;
     margin-top: 20px;
 } 
   .thirdAbout .assembler img, .copier img {
@@ -1664,7 +1658,10 @@ nav {
     width: 100%;
 }
 
-
+.fourthAbout li {
+    margin-left: 20px;
+    font-size: 15px;
+}
 
 
     /* Section Six responsive 768PX */
@@ -1676,6 +1673,7 @@ nav {
     .sectionSix .container-title-sectionSix h1, p, h2 {
         font-size: 1.2rem;
         width: 100%;
+        margin-top: 5px;
     }
 
     .container-title-sectionSix {
